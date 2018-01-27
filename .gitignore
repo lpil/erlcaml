@@ -1,0 +1,7 @@
+*.P
+*.S
+*.beam
+*.cmi
+*.cmo
+*.out
+thing.core

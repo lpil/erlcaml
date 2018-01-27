@@ -1,0 +1,26 @@
+module 'core_mod' ['greet'/0,
+		'module_info'/0,
+		'module_info'/1]
+    attributes [%% Line 1
+		'file' =
+		    %% Line 1
+		    [{[116|[104|[105|[110|[103|[46|[101|[114|[108]]]]]]]]],1}]]
+
+'greet'/0 =
+    %% Line 5
+    fun () ->
+        %% Line 6
+        #{#<108>(8,1,'integer',['unsigned'|['big']]),
+          #<111>(8,1,'integer',['unsigned'|['big']]),
+          #<108>(8,1,'integer',['unsigned'|['big']]),
+          #<33>(8,1,'integer',['unsigned'|['big']])}#
+
+'module_info'/0 =
+    fun () ->
+	call 'erlang':'get_module_info'
+	    ('core_mod')
+'module_info'/1 =
+    fun (_@c0) ->
+	call 'erlang':'get_module_info'
+	    ('core_mod', _@c0)
+end

@@ -1,0 +1,10 @@
+(setglobal Thing!
+  (let
+    (Nested/1002 =
+       (module-defn(Nested/1002) ml/thing.ml(1):0-43
+         (let (number/1003 =[int] 1) (makeblock 0 number/1003)))
+     greet/1004 =
+       (function param/1006
+         (apply (field 33 (global Pervasives!)) "Hello, mum!"))
+     add/1007 = (function prim/1013 prim/1012 stub (+ prim/1013 prim/1012)))
+    (makeblock 0 Nested/1002 greet/1004 add/1007)))
