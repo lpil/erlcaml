@@ -3,5 +3,6 @@
 *.beam
 *.cmi
 *.cmo
+*.exe
 *.out
-thing.core
+_build

@@ -1,0 +1,10 @@
+lib: [
+  "_build/install/default/lib/erlcaml/META" {"META"}
+  "_build/install/default/lib/erlcaml/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/erlcaml" {"erlcaml"}
+]
+doc: [
+  "_build/install/default/doc/erlcaml/README.md"
+]

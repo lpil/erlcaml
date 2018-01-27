@@ -1,8 +1,16 @@
 # OCaml Erlang
 
 ```sh
+# Compile
+jbuilder build
+
+# Run
+jbuild exec erlcaml
+```
+
+```sh
 # Dump OCaml Lambda IR
-ocamlc -dlambda thing.ml
+ocamlc -c -dlambda thing.ml
 ```
 
 ```erlang

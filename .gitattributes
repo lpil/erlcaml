@@ -1,3 +1,4 @@
 *.core linguist-language=Erlang
 *.pp linguist-language=Erlang
 *.lambda linguist-language=Lisp
+jbuild linguist-language=Lisp
