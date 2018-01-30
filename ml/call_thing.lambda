@@ -1,0 +1,5 @@
+(setglobal Call_thing!
+  (let
+    (greet/1002 = (field 0 (global Thing!))
+     add/1003 = (field 1 (global Thing!)))
+    (makeblock 0 greet/1002 add/1003)))

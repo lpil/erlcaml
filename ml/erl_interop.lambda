@@ -1,0 +1,2 @@
+(setglobal Erl_interop!
+  (let (get_self/1005 = (erlang:self/0 0a)) (makeblock 0 get_self/1005)))
